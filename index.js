@@ -9,9 +9,9 @@ app.use(express.json());
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root', 
-    password: '20abril2005', 
-    database: 'fitstock_db'
+    user: 'victor', 
+    password: 'zaid1234', 
+    database: 'Fit_Stock_db'
 });
 
 db.connect(err => {
@@ -80,3 +80,4 @@ app.put('/api/products/:id', (req, res) => {
         res.json({ message: 'Producto actualizado con éxito' });
     });
 });
+
