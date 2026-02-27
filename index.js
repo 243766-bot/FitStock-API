@@ -10,7 +10,7 @@ app.use(express.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'victor', 
-    password: 'zaid1234', 
+    password: 'zaid1234!', 
     database: 'Fit_Stock_db'
 });
 
